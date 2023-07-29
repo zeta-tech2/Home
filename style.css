@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: poppins;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(206, 83, 255), rgb(25, 1, 90));
+    padding: 0 !important;
+   
+}
+.navbar-nav li{
+    padding: 0 10px;
+    border: none;
+
+}
+.navbar-nav li:hover{
+    border-bottom: 1.3px solid whitesmoke ;
+
+}
+.navbar-nav li a{
+    color: whitesmoke !important;
+    font-weight: 600;
+    text-align: center;
+}
+#home{
+    
+    background-image: linear-gradient(to right, rgb(206, 83, 255), rgb(25, 1, 90));
+}
+#zetatxt{
+    font-weight: 700;
+    font-size: 90px;
+    color: whitesmoke;
+
+}
+#zetaabt{
+    color: whitesmoke;
+    text-align: justify;
+}
+.home-img{
+    width: 200px;
+    height: 200px; 
+    padding: 80px 0; 
+    
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+
