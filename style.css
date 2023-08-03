@@ -119,6 +119,21 @@ body{
 #serv-txt{
     text-align: justify;
 }
+#servBtn{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(181, 176, 199);
+    font-weight: 600;
+    color: black;
+    border-radius: 0px 20px 0px 20px;
+    border: none;
+    transition: 0.3s;
+}
+#servBtn:hover{
+    color: whitesmoke;
+    background-image: linear-gradient(to right,  rgb(206, 83, 255), rgb(25, 1, 90));
+}
 
 /* ABOUT USSSSSSSSSSSSSSSSS*/
  .title{
@@ -142,4 +157,42 @@ body{
 }
 .abt ul{
     margin-left: 20px;
+}
+
+
+
+
+
+/* creators sectionnnnnnnnnnnn...........*/
+
+#creators{
+    background-color: #dfdfdf;
+}
+#cr-img{
+    height: 180px;
+    width: 60%;
+    border-radius: 0 0 50% 0;
+    position: relative;
+    object-fit: cover;
+}
+
+#creator-card{
+    margin: 50px; 
+}
+#creator-card:hover{
+   
+    background-image: linear-gradient(to right,  rgb(206, 83, 255), rgb(25, 1, 90));
+    color: whitesmoke;
+    transform: scale(1.1);
+    transition: 0.8s;
+
+}
+.venky:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.simeonCard:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.perumal:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
