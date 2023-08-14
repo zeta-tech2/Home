@@ -1,0 +1,30 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bungee+Outline&family=Cinzel&family=Courgette&family=Londrina+Outline&family=Monoton&family=Poppins:wght@400;600&family=Tenor+Sans&family=Zen+Tokyo+Zoo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans',;
+}
+body{
+ color: whitesmoke;
+ width: 100%;
+ height: 100vh;
+ background-image: linear-gradient(to right, rgb(175, 1, 166), rgb(50, 10, 160), rgb(10, 1, 24));
+
+}
+.txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.txt marquee{
+  background-color: rgba(255, 255, 255, 0.082);
+}
+.txt .img-fluid{
+  box-shadow: 0px 2px 40px 9px black;
+  border-radius: 50%;
+}

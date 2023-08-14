@@ -1,8 +1,9 @@
-var intro = document.getElementsByClassName('splash');
+//splash screen
 
-window.addEventListener("load",
-function(){
+let intro = document.querySelector('.intro');
+
+window.addEventListener('DOMContentLoaded',()=>{
   setTimeout(()=>{
-      intro.style.display="none";
-  },1000);
-}
+    intro.style.top='-100vh';
+  }, 2300)
+})

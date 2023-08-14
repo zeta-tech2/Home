@@ -7,16 +7,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/titleZeta.ico">
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 
-        <!--bootstrap icon-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    </style>
+
+    <!--aniate css-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
+   
+    <div class="intro" >
+        <h1 class="">ZETA</h1>
+    </div>
 
     <!--splash screen-->
     <!--- <div class="splash">
@@ -39,7 +53,7 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service">Services</a>
@@ -47,14 +61,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#aboutus">About us</a>
                         </li>
+                    
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Works</a>
+                            <a href="#connection" class="nav-link">Connection</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a href="#creators" class="nav-link">Creators</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Creators</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Contact</a>
+                            <a class="nav-link " href="#contact">Contact</a>
                         </li>
 
 
@@ -67,17 +82,17 @@
     <!--------------homeeeeeeeeee---------------->
     <section id="home">
         <div class="container">
-            <div class="row">
+            <div class="row flex-column-reverse flex-sm-row">
                 <div class="col-md-6  ">
                     <p id="zetatxt">ZETA</p>
-                    <p id="zetaabt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quisquam
-                        debitis modi,
-                        expedita amet consectetur tempore dolor est? Aliquam minima magni modi eos quasi molestias aut
-                        esse, impedit repellendus odio.</p>
+                    <p id="zetaabt">A startup is a young, innovative company striving to disrupt industries or create
+                        new ones, fueled by visionary founders, rapid growth potential, and a dynamic, risk-taking
+                        culture. It navigates uncertainties, seeks funding, and evolves swiftly to meet market demands.
+                    </p>
 
                 </div>
                 <div class="col-md-6 text-center home-col ">
-                    <img src="/images/2771660.jpg" alt="" class="img-fluid home-img">
+                    <img src="/images/home2.png" width="70%" height="90%" class="img-fluid no-background">
 
                 </div>
             </div>
@@ -90,42 +105,36 @@
         <div class="container text-center">
             <h1 id="titleServ">WHAT WE DO?</h1>
             <!--for UNDER LINE-->
-            <div class="ln"><div class="lnn"></div></div>
+            <div class="ln">
+                <div class="lnn"></div>
+            </div>
             <!---->
             <div class="row">
                 <div class=" col-md-6 col-sm-6">
-                    <img src="/images/sm-Zeta.png" alt="" class="img-fluid servimg">
+                    <img src="/images/ux.png" alt="" class="img-fluid servimg">
                     <h4 id="serv-head">Web Application</h4>
-                    <p id="serv-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, est voluptatum vel
-                        maiores corrupti maxime exercitationem, iste ullam atque minus dignissimos amet eveniet laborum
-                        corporis temporibus delectus saepe. Architecto?</p>
-                        <button class="btn" id="servBtn">VIEW</button>
+                    <p id="serv-txt">Empowering users through seamless web experiences, our application brings innovation to life with intuitive interfaces and robust functionality.</p>
+                    <a href="/services/webDev.html"><button class="btn" id="servBtn">VIEW<i class="bi bi-arrow-right"></i></button></a>
                 </div>
 
                 <div class=" col-md-6 col-sm-6">
-                    <img src="/images/sm-Zeta.png" alt="" class="img-fluid servimg">
-                    <h4 id="serv-head">Web Application</h4>
-                    <p id="serv-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, est voluptatum vel
-                        maiores corrupti maxime exercitationem, iste ullam atque minus dignissimos amet eveniet laborum
-                        corporis temporibus delectus saepe. Architecto?</p>
-                        <button class="btn" id="servBtn">VIEW</button>
+                    <img src="/images/smartphone.png" alt="" class="img-fluid servimg">
+                    <h4 id="serv-head">Native Mobile Apps</h4>
+                    <p id="serv-txt">Unveiling a new realm of convenience, our native mobile application harmonizes elegant design and agile performance, reshaping how users engage on the go.</p>
+                    <a href="/services/mobile.html"><button class="btn" id="servBtn">VIEW<i class="bi bi-arrow-right"></i></button></a>
                 </div>
 
                 <div class=" col-md-6 col-sm-6">
-                    <img src="/images/sm-Zeta.png" alt="" class="img-fluid servimg">
-                    <h4 id="serv-head">Web Application</h4>
-                    <p id="serv-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, est voluptatum vel
-                        maiores corrupti maxime exercitationem, iste ullam atque minus dignissimos amet eveniet laborum
-                        corporis temporibus delectus saepe. Architecto?</p>
-                        <button class="btn" id="servBtn">VIEW</button>
+                    <img src="/images/windows.png" alt="" class="img-fluid servimg">
+                    <h4 id="serv-head">windows application</h4>
+                    <p id="serv-txt">Empowering productivity on the Windows platform, our application combines a sleek user interface with powerful features, enhancing efficiency for users across diverse tasks.</p>
+                   <a href="/services/software.html"><button class="btn" id="servBtn">VIEW<i class="bi bi-arrow-right"></i></button></a>
                 </div>
                 <div class=" col-md-6 col-sm-6">
-                    <img src="/images/sm-Zeta.png" alt="" class="img-fluid servimg">
-                    <h4 id="serv-head">Web Application</h4>
-                    <p id="serv-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro, est voluptatum vel
-                        maiores corrupti maxime exercitationem, iste ullam atque minus dignissimos amet eveniet laborum
-                        corporis temporibus delectus saepe. Architecto?</p>
-                        <button class="btn" id="servBtn">VIEW</button>
+                    <img src="/images/ui.png" alt="" class="img-fluid servimg">
+                    <h4 id="serv-head">Ui/Ux Designing</h4>
+                    <p id="serv-txt">Crafting digital landscapes that captivate and resonate, our UI/UX designs blend artistry and functionality, ensuring every interaction becomes an immersive journey.</p>
+                    <a href="/services/uiux.html"><button class="btn" id="servBtn">VIEW<i class="bi bi-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
@@ -135,117 +144,288 @@
     <section id="aboutus">
         <div class="container">
             <h1 class="title text-center">WHY CHOOSE US ?</h1>
-             <!--for UNDER LINE-->
-             <div class="ln"><div class="lnn"></div></div>
-             <!---->
+            <!--for UNDER LINE-->
+            <div class="ln">
+                <div class="lnn"></div>
+            </div>
+            <!---->
 
-             <div class="row">
-                <div class="col-md-6 abt">
+            <div class="row  flex-column-reverse flex-sm-row">
+                <div class="col-md-6 abt " >
                     <p class="about-tile">Why We'r different</p>
                     <ul>
-                        <li>Belive in doing a business with honesty</li>
-                        <li>Belive in doing a business with honesty</li>
-                        <li>Belive in doing a business with honesty</li>
-                        <li>Belive in doing a business with honesty</li>
-                        <li>Belive in doing a business with honesty</li>
-                        <li>Belive in doing a business with honesty</li>
+                        <li>Belive in doing a business with honestly</li>
+                        <li>Innovative Solutions</li>
+                        <li>Customization and Flexibility</li>
+                        <li>User-Centric Design</li>
+                        <li>Rapid Development</li>
+                        <li>Domain Expertise</li>
+                        <li>Customer Support</li>
+                        <li>Value for Investment</li>
+                        <li>Collaborative Approach:</li>
                     </ul>
                 </div>
 
-                <div class="col-md-6">
-                    <img src="/images/2771660.jpg" alt="" class="img-fluid">
+                <div class="col-md-6 col-sm-6 col-lg-6 d-flex justify-content-center align-item-center order-sm-1 ">
+                    <img src="/images/network.png" alt="" class="img-fluid">
                 </div>
-             </div>
-        </div>
-    </div>
-    
-  </section>
-
-  <br> <!-- to add space between section-->
-
-  <!-------WORKSSSSSSSSSS-->
-  <section id="works" >
-    <h1 style="text-align: center;">OUR WORKS !</h1>
-     <!--for UNDER LINE-->
-     <div class="ln"><div class="lnn"></div></div>
-     <!---->
-
- 
-  </section>
-
-
-  <!----creators--------->
-  <section id="creators">
-    <h1 style="text-align: center;">CORE CREATORS :)</h1>
-    <!--for UNDER LINE-->
-    <div class="ln"><div class="lnn"></div></div>
-    <!---->
-<div class="container text-center py-5">
-    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-        <!--coll-->
-        <div class="col">
-            <!--title-->
-          <div class="card venky" id="creator-card">
-            <img src="./images/profile.jpg" class="card-img-top img-fluid" id="cr-img" alt="...">
-            <!--body-->
-            <div class="card-body sim">
-              <h5 class="card-title">VENGADESH M</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
-            <button class="btn cr-btn" id="cr-button">Profile</button>
-            <div class="cardfoot" id="crfoot">
-          <!--icons-->
-          <div class="d-flex justify-content-evenly p-6">
-            <i class="bi bi-envelope"></i>
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-whatsapp"></i>
-          </div>
-          </div>
-          </div>
         </div>
-        <div class="col">
-          <div class="card simeonCard"id="creator-card">
-            <img src="./images/profile.jpg" class="card-img-top img-fluid" id="cr-img" alt="...">
-            <div class="card-body sim">
-              <h5 class="card-title">SIMEON S</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-            </div>
-            <button class="btn cr-btn" id="cr-button">Profile</button>
-            <div class="cardfoot" id="crfoot">
-            <div class="d-flex justify-content-evenly p-6">
+        </div>
+
+    </section>
+
+    <br> <!-- to add space between section-->
+
+    <!-------WORKSSSSSSSSSS-->
+    <section id="connection">
+        <h1 style="text-align: center;">CONNECTION</h1>
+        <!--for UNDER LINE-->
+        <div class="ln">
+            <div class="lnn"></div>
+        </div>
+
+        <!---->
+        <div class="container">
+            <div class="row">
              
-                <i class="bi bi-envelope"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-whatsapp"></i>
+  
+              <div class="col-lg-12 col-sm-6 col-md-12 col-xl-12" >
+  
+                    <div class="proCon" style="margin-bottom: 100px;">
+                   <h4 style="padding-left: 15px; padding-top: 20px; text-align: center;">We work for you !</h4>
+  
+                   <!--just for under line-->
+                   <div class="line">
+                   <div class="lineBack"></div>
+                  </div>
+             
+                  
+                   <form class="connDetails">
+                    <marquee behavior="" direction="" style="background-color: rgb(206, 206, 206); margin-top: 12px; margin-bottom: 12px;">Connection section currently unavailable because of "Dynamic Hosting" problems it will be updated soon! If you want to contact please see the contact section</marquee>
+
+                   <label  class="form-label">Initial contact</label>
+                   <input type="text" class="form-control" placeholder="Name" id="nm">
+                   <input type="text" class="form-control" placeholder="Comapny name" id="cm">
+                   <input type="email" class="form-control" placeholder="Email" id="email"  aria-describedby="emailHelp">
+                   <input type="tel" class="form-control" placeholder="Mobile number" id="mob" aria-describedby="telHelp">
+  
+                   <label for="" class="form-label">What type of project you want</label>
+                   <div class="form-floating">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        
+                        <option value="1" id="active">Web Design</option>
+                        <option value="2">Web Application</option>
+                        <option value="3">Native Mobile Application</option>
+                        <option value="4">Windows Application</option>
+                        <option value="4">Ui/Ux Design</option>
+                      </select>
+                      <!--<label for="floatingSelect">Works with selects</label>--->
+                    </div><!---->
+                    <label for="">Your project brief</label><br>
+                    <textarea name="" id="probf" cols="35" rows="3"></textarea><br>
+                  <a href="#"><button class="btn" id="send">Send</button></a>
+                  
+                 
+                     </form>
+
+                     
+            </div><!--proCon Division end-->
+
+              </div>
             </div>
-              </div>
           </div>
+   
+  
+
+
+
+       </section> 
+
+    <!----creators--------->
+    <section id="creators">
+        <h1 style="text-align: center; padding-top: 120px;">CORE CREATORS</h1>
+        <!--for UNDER LINE-->
+        <div class="ln">
+            <div class="lnn"></div>
         </div>
-        <div class="col">
-          <div class="card perumal" id="creator-card">
-            <img src="./images/profile.jpg" class="card-img-top img-fluid" id="cr-img" alt="...">
-            <div class="card-body sim">
-              <h5 class="card-title">PERUMAL S</h5>
-              <p class="card-text">This is a longer card with supporting text below as</p>
+        <!---->
+        <div class="container text-center py-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+                <!--coll-->
+                <div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <!--title-->
+                    <div class="card venky" id="creator-card">
+                        <img src="./images/profile.jpg" class="card-img-top img-fluid" id="cr-img" alt="...">
+                        <!--body-->
+                        <div class="card-body sim">
+                            <h5 class="card-title">VENGADESH M</h5>
+                            <p class="card-text">Currently as a Computer Science Student</p>
+                        </div>
+                        <button class="btn cr-btn" id="cr-button">Profile</button>
+                        <div class="cardfoot" id="crfoot">
+                            <!--icons-->
+                            <div class="d-flex justify-content-evenly p-6">
+                                <i class="bi bi-envelope"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card simeonCard" id="creator-card">
+                        <img src="./images/imggg1.png" class="card-img-top img-fluid" id="cr-img" alt="...">
+                        <div class="card-body sim">
+                            <h5 class="card-title">SIMEON S</h5>
+                            <p class="card-text">Currently as a Computer Science Student</p>
+                        </div>
+                       <a href="https://simeon-portfolio-1b398.web.app/"><button class="btn cr-btn" id="cr-button">Profile</button></a>
+                        <div class="cardfoot" id="crfoot">
+                            <div class="d-flex justify-content-evenly p-6">
+
+                                <a href="mailto:simeoncse52@gmail.com"><i class="bi bi-envelope"></i></a>
+                                <a href="https://www.linkedin.com/in/simeon-s-4a1433247"><i class="bi bi-linkedin"></i></a>
+                               <a href="https://wa.me/+919500210870"><i class="bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card perumal" id="creator-card">
+                        <img src="./images/imggg4.png" class="card-img-top img-fluid" id="cr-img" alt="...">
+                        <div class="card-body sim">
+                            <h5 class="card-title">PERUMAL S</h5>
+                            <p class="card-text">This is a longer card with supporting text below as</p>
+                        </div>
+                       <a href="https://perumal-cef10.web.app/"> <button class="btn cr-btn" id="cr-button">Profile</button></a>
+                        <div class="cardfoot" id="crfoot">
+                            <div class="d-flex justify-content-evenly p-6">
+                                <i class="bi bi-envelope"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <button class="btn cr-btn" id="cr-button">Profile</button>
-            <div class="cardfoot" id="crfoot">
-            <div class="d-flex justify-content-evenly p-6">
-                <i class="bi bi-envelope"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-whatsapp"></i>
-              </div>
-              </div>
-          </div>
         </div>
-       
-      </div>
-</div>
-  </section>
+    </section>
+    
+
+
+    <section id="contact">
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                    
+                    <h1 style="color: rgb(106, 1, 243);">Contact Us</h1>
+                    <div class="unline"></div>
+                    <h5>We're just a message away! Contact our friendly team for any inquiries or support you might require.</h5>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6">
+                  
+                     <a href="mailto:zetatech.developer@gmail.com"><button class="btn"><i class="bi bi-envelope"></i></button></a>
+                     <a href="https://www.instagram.com/zeta.developers/"><button class="btn"><i class="bi bi-instagram"></i></button></a>
+                    <a href="https://wa.me/+919500210870"> <button class="btn"><i class="bi bi-whatsapp"></i></button></a>
+                     <a href="https://www.linkedin.com/in/simeon-s-4a1433247"><button class="btn"><i class="bi bi-linkedin"></i></button></a>
+                     <div class="contln"></div>
+            
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
     <footer>
-        
-    </footer>
+          <img src="/images/wave2.png" alt="" width="100%" class="img-fluid">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-3 col-xl-3 col-xxl-3 col-xs-6">
+                    <h2>Sections</h2>
+                    <div class="dash"></div>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#aboutus">About us</a></li>
+                        <li><a href="#connection">Connection</a></li>
+                        <li><a href="#creators">Core creators</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-md-3 col-xl-3 col-xxl-3 col-xs-6">
+                    <h2>Our Works</h2>
+                    <div class="dash"></div>
+
+                    <ul>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Native mobile apps</a></li>
+                        <li><a href="#">Windows applications</a></li>
+                        <li><a href="#">Ui / Ux designing</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3 col-xl-3 col-xxl-3 col-xs-6">
+                    <h2>Creators</h2>
+                    <div class="dash"></div>
+
+                    <ul>
+                        <li><a href="https://simeon-portfolio-1b398.web.app/">Simeon S</a></li>
+                        <li><a href="https://perumal-cef10.web.app/">Perumal S</a></li>
+                        <li><a href="">Vengadesh M</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3 col-xl-3 col-xxl-3 col-xs-6">
+                    <h2>Contact</h2>
+                    <div class="dash"></div>
+                    <ul>
+                        <li><a href="mailto:zetatech.developer@gmail.com"><i class="bi bi-envelope" >Mail</i></a></li>
+                        <li><a href="https://www.instagram.com/zeta.developers/"><i class="bi bi-instagram">Instagram</i></a></li>
+                        <li><a href="https://wa.me/+919500210870"><i class="bi bi-whatsapp">WhatsApp</i></a></li>
+                        <li><a href="https://www.linkedin.com/in/simeon-s-4a1433247"><i class="bi bi-linkedin">LinkedIn</i></a></li>
+                        
+                    </ul>
+                </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 d-flex justify-content-center" style="margin-top: 40px; margin-bottom: 40px;">
+                <img src="images/sm-Zeta.png" width="90px" height="90px"  alt="zetalogo" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+         
+
+<div class="cr" style="width: 100%; height: 8vh; background-color: rgba(34, 2, 85, 0.658);">
+    <small>All content on this website is protected by copyright &copy; 2023 ZETA. All rights reserved.</small>
+</div>
+       </footer>
+
+  
+
+
+
+
+
+
+
+
+
+
 
     <script src="zeta.js"></script>
 
